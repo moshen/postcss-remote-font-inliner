@@ -1,6 +1,6 @@
 {
   "name": "postcss-remote-font-inliner",
-  "version": "1.0.2-beta.0",
+  "version": "2.0.0",
   "description": "A postcss plugin for inlining remote fonts",
   "main": "index.js",
   "homepage": "https://github.com/moshen/postcss-remote-font-inliner",
@@ -14,12 +14,13 @@
     "css",
     "postcss-plugin"
   ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "css-font-face-src": "^1.0.0",
-    "postcss": "^6.0.11",
-    "request": "^2.88.0"
+    "postcss": "^8.4.31"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
